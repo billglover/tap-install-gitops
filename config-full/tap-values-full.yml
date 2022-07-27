@@ -6,17 +6,17 @@
 profile: full
 ceip_policy_disclosed: true
 buildservice:
-  kp_default_repository: #@ "{}/{}".format(data.values.tap.registry.host, data.values.tap.registry.repositories.buildService)
-  kp_default_repository_username: #@ data.values.tap.credentials.registry.username
-  kp_default_repository_password: #@ data.values.tap.credentials.registry.password
+  kp_default_repository: #@ "{}/{}".format(data.values.tap.registryTap.host, data.values.tap.registryTap.repository)
+  kp_default_repository_username: #@ data.values.tap.credentials.registryTap.username
+  kp_default_repository_password: #@ data.values.tap.credentials.registryTap.password
   tanzunet_username: #@ data.values.tap.credentials.tanzuNet.username
   tanzunet_password: #@ data.values.tap.credentials.tanzuNet.password
 
 supply_chain: basic
 ootb_supply_chain_basic:
   registry:
-    server: #@ data.values.tap.registry.host
-    repository: #@ data.values.tap.registry.repositories.ootbSupplyChain
+    server: #@ data.values.tap.registryApp.host
+    repository: #@ data.values.tap.registryApp.repository
   gitops:
     ssh_secret: ""
 
