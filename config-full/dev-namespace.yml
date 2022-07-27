@@ -12,7 +12,7 @@ metadata:
 #@ def config():
 #@  return {
 #@    "auths": {
-#@      data.values.tap.registry.host: {
+#@      data.values.tap.registryApp.host: {
 #@        "username": data.values.tap.credentials.registryApp.username,
 #@        "password": data.values.tap.credentials.registryApp.password
 #@      }
