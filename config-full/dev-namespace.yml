@@ -162,7 +162,7 @@ metadata:
   name: gitops-token
   namespace: #@ data.values.tap.devNamespace
   annotations:
-    tekton.dev/git-0: github.com
+    tekton.dev/git-0: https://github.com
 type: kubernetes.io/basic-auth          #! required
 stringData:
   username: #@ data.values.tap.credentials.git_ops.username
