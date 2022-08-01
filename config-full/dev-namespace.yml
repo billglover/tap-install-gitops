@@ -125,7 +125,7 @@ spec:
     package main
 
     # Accepted Values: "Critical", "High", "Medium", "Low", "Negligible", "UnknownSeverity"
-    notAllowedSeverities := ["Low"]
+    notAllowedSeverities := ["Critical"]
     ignoreCves := []
 
     contains(array, elem) = true {
