@@ -41,7 +41,7 @@ ootb_supply_chain_testing_scanning:
   scanning:
     source:
       policy: scan-policy
-      template: public-source-scan-template
+      template: blob-source-scan-template
     image:
       policy: scan-policy
       template: private-image-scan-template
