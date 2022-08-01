@@ -12,7 +12,7 @@ buildservice:
   tanzunet_username: #@ data.values.tap.credentials.tanzuNet.username
   tanzunet_password: #@ data.values.tap.credentials.tanzuNet.password
 
-supply_chain: basic
+supply_chain: testing_scanning
 #! ootb_supply_chain_basic:
 #!   registry:
 #!     server: #@ data.values.tap.registryApp.host
