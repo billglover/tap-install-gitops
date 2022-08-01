@@ -119,6 +119,7 @@ apiVersion: scanning.apps.tanzu.vmware.com/v1beta1
 kind: ScanPolicy
 metadata:
   name: scan-policy
+  namespace: #@ data.values.tap.devNamespace
 spec:
   regoFile: |
     package policies
