@@ -4,6 +4,8 @@
 ---
 tap:
   devNamespace: dev-tap
+  dev_namespace:
+    go: dev-go
 
   domains:
     learningCenter: learningcenter.tap.tanzu.corp
